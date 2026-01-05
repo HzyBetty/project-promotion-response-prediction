@@ -55,3 +55,34 @@ Key drivers of promotion response:
 ---
 
 ## Project Structure
+project-promotion-response-prediction/
+├── data/ # Contains raw data (ignored by GitHub)
+├── notebook/ # Jupyter notebook with model code
+├── report/ # PDF report summarizing approach and results
+├── output/ # Generated predictions CSV (ignored by GitHub)
+├── README.md # This file
+└── .gitignore # Files/folders to exclude from GitHub
+
+
+---
+
+## Reproducibility
+- Notebook fully executable on **Google Colab**  
+- Runtime < 10 minutes for model training and predictions  
+- Predictions are generated directly from the notebook without using external data  
+
+---
+
+## Future Work
+- Implement rolling temporal features and trend analysis  
+- Explore customer segmentation or cohort-based modeling for personalized targeting  
+- Apply ensemble methods and automated feature selection to improve predictive accuracy  
+- Use SHAP or similar techniques for enhanced feature interpretability  
+
+---
+
+## AI Usage Disclosure
+Generative AI tools (ChatGPT, Claude) were used for **code drafting, debugging suggestions, and documentation clarification**. All outputs were independently reviewed, validated, and adapted for the project.
+
+---
+
