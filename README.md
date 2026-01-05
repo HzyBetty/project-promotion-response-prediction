@@ -56,6 +56,7 @@ Key drivers of promotion response:
 
 ## Project Structure
 
+```
 project-promotion-response-prediction/
 ├── data/          # Contains raw data (ignored by GitHub)
 ├── notebook/      # Jupyter notebook with model code
@@ -63,8 +64,7 @@ project-promotion-response-prediction/
 ├── output/        # Generated predictions CSV (ignored by GitHub)
 ├── README.md      # This file
 └── .gitignore     # Files/folders to exclude from GitHub
-
-
+```
 ---
 
 ## Reproducibility
