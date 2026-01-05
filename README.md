@@ -55,13 +55,14 @@ Key drivers of promotion response:
 ---
 
 ## Project Structure
+
 project-promotion-response-prediction/
-├── data/ # Contains raw data (ignored by GitHub)
-├── notebook/ # Jupyter notebook with model code
-├── report/ # PDF report summarizing approach and results
-├── output/ # Generated predictions CSV (ignored by GitHub)
-├── README.md # This file
-└── .gitignore # Files/folders to exclude from GitHub
+├── data/          # Contains raw data (ignored by GitHub)
+├── notebook/      # Jupyter notebook with model code
+├── report/        # PDF report summarizing approach and results
+├── output/        # Generated predictions CSV (ignored by GitHub)
+├── README.md      # This file
+└── .gitignore     # Files/folders to exclude from GitHub
 
 
 ---
